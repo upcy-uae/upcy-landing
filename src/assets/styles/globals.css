@@ -1,0 +1,439 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-plus-jakarta-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Animations */
+
+/* Animation 1 */
+.animate.fade-in {
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Animation 1 */
+
+/* Animation 2 */
+
+.animate.pop {
+  animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: 0.8s;
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+/* End Animation 2 */
+
+/* Animation 3 */
+/* Info: Used on the navigation  */
+.animate.fade-in-nav {
+  animation-duration: 0.8s;
+  animation-name: animate-fade-nav;
+  animation-delay: 0.8s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade-nav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* End Animation 3 */
+
+/* Animation 4 */
+/* Info: Slide down animation for an image */
+.animate.slide-down {
+  animation-duration: 1.8s;
+  animation-name: animate-slide-down;
+  animation-delay: 1.8s; /* Wait for 1 second before starting the animation */
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-slide-down {
+  0% {
+    /* transform: translateY(-20%); */
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+  100% {
+    /* transform: translateY(0); */
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+/* End Animation 4 */
+
+/* Animation 5 */
+.animate.fade-in-two {
+  animation-duration: 1.2s;
+  animation-name: animate-fade;
+  animation-delay: 1.7s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade-in-two {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Animation 5 */
+
+/* Animation 6 */
+.animate.fade-in-three {
+  animation-duration: 2s;
+  animation-name: animate-fade;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade-in-three {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Animation 6 */
+
+/* Animation 7 */
+.animate.fade-in-four {
+  animation-duration: 2s;
+  animation-name: animate-fade;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade-in-four {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End Animation 7 */
+
+.logo-animation {
+  animation: slideUp 1s forwards, resize 1s 1s backwards;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes resize {
+  0% {
+    width: 40%; /* Equivalent to w-1/2 */
+    height: 40%; /* Equivalent to h-1/2 */
+  }
+  100% {
+    width: 11%;
+    height: 11%;
+  }
+}
+
+/* BG Image */
+header {
+  background: url("../images/hero-section/test.jpeg") no-repeat center center;
+  height: 90vh;
+  position: relative; /* Needed for absolute positioning of the sliding animation */
+  overflow: hidden; /* Ensure content does not overflow during animation */
+}
+
+/* Initial state of the header before animation */
+header {
+  transform: translateY(150%); /* Slide the header to the left initially */
+  animation: slide-up 0.6s forwards;
+}
+
+/* Keyframes for the sliding animation */
+@keyframes slide-up {
+  from {
+    transform: translateY(150%); /* Start off-screen to the left */
+  }
+  to {
+    transform: translateY(0); /* Slide in to the original position */
+  }
+}
+
+/* Structure Comps */
+
+body {
+  @apply bg-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-plusJakarta;
+}
+
+/* New Comps */
+
+/* section {
+  @apply py-8 md:py-16;
+} */
+
+.section-innner-wrapper {
+  @apply container mx-auto px-4;
+}
+
+.dd-cta {
+  @apply block md:inline-flex py-4 px-6 mb-3 sm:mb-0 sm:mr-4 items-center justify-center text-lg font-medium text-slate-100 bg-dd-green-100 hover:bg-dd-green-200 hover:text-slate-100 rounded-full transition duration-200 tracking-tight cursor-pointer;
+}
+
+/* End Structure Comps */
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Layout Comps */
+
+/* End Layout Comps */
+
+/* Buttons */
+.primary {
+  @apply py-4 px-6 w-full text-black font-semibold  rounded-xl  bg-dd-green-50 hover:bg-dd-green transition ease-in-out duration-200;
+}
+/* End Buttons */
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Header Component */
+
+/* NOT USED */
+
+/* End Header Component */
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Hero Comps */
+
+.hero-header {
+  @apply bg-center bg-fixed bg-no-repeat bg-cover relative;
+}
+
+.hero-container {
+  @apply h-full bg-opacity-80 bg-black flex flex-col justify-center items-center text-center text-white px-4;
+}
+
+.hero > div h1 {
+  @apply mb-4 text-5xl md:text-7xl font-bold tracking-tighter  leading-10 md:leading-tight;
+}
+
+.hero > div h2 {
+  @apply mb-4 text-3xl md:text-4xl font-bold tracking-tighter  leading-10 md:leading-tight;
+}
+
+.hero p:nth-of-type(2) {
+  @apply font-bold leading-5 mb-2;
+}
+
+.hero-container > div {
+  @apply px-4 md:px-0 flex flex-col items-center;
+}
+
+.hero-container > div {
+  @apply px-4 md:px-0 mb-40;
+}
+
+.hero-container > div > div:nth-child(3) {
+  @apply flex justify-center;
+}
+
+.hero-container > div > div:nth-of-type(odd) {
+  @apply mb-16;
+}
+.hero-container > div > div:nth-of-type(even) {
+  @apply mb-6;
+}
+
+/* End Hero Comps */
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Animated Comp */
+
+/* Styles from the GreenSock website */
+.ipsType_right {
+  @apply text-right;
+}
+.ipsType_center {
+  @apply text-center;
+}
+.cInnerContent {
+  @apply max-w-[1240px] mx-auto;
+}
+.ipsSpacer_bottom_double {
+  @apply mb-7;
+}
+.ipsGrid {
+  @apply flex flex-wrap;
+}
+.ipsGrid::before,
+.ipsGrid::after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  box-sizing: border-box;
+}
+.ipsGrid > .ipsGrid_span5 {
+  @apply w-full md:w-[40.42553191489362%];
+}
+.ipsGrid > .ipsGrid_span7 {
+  @apply w-full md:w-[57.44680851063829%];
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  @apply block md:float-left md:ml-[2%];
+}
+.ipsGrid > [class*="ipsGrid_span"]:first-child {
+  margin-left: 0;
+}
+.feature {
+  @apply px-4 md:px-0 flex flex-col md:flex-row justify-center items-center py-8;
+}
+.card {
+  @apply overflow-hidden transition duration-300 rounded-2xl mb-4 md:mb-0;
+}
+
+.card-dimentions {
+  @apply w-[480px] h-[480px] bg-red-500;
+}
+
+/* .featured-image-container .card {
+  padding: 10px;
+  height: 0;
+  padding-bottom: calc(100% - 10px);
+} */
+
+img {
+  max-width: 100%;
+}
+
+.header-section {
+  margin: 50px auto;
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform, opacity;
+}
+
+/* End Animated Comp */
+
+/* ------ */
+/* ------ */
+/* ------ */
+
+/* Header Component */
+
+.header-outer-container {
+  @apply overflow-hidden px-4 md:px-6 animate fade-in-nav bg-dd-green-100 sticky top-10 z-40;
+}
+
+.header-inner-container {
+  @apply flex flex-wrap md:flex-col  items-baseline;
+}
+
+.header-logo-container {
+  @apply w-auto py-2 flex;
+}
+
+.mobile-menu-icon-container {
+  @apply w-auto;
+}
+
+.nav-links-container {
+  @apply w-auto hidden  pt-2;
+}
+
+.nav-links-container > ul {
+  @apply flex items-center;
+}
+
+.nav-links {
+  @apply mr-4 text-sm hover:underline;
+}
+
+.mobile-icon {
+  @apply w-8 h-8 text-black mr-2;
+}
+
+/* End Header Component */
+
+/* ------ */
+/* ------ */
+/* ------ */

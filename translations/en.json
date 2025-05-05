@@ -1,0 +1,87 @@
+{
+  "footer": {
+    "heading": "Take a Break from Adulting",
+    "subHeading": "has it covered"
+  },
+  "header": {
+    "home": "Home",
+    "washingSolutions": "Washing Solutions",
+    "properties": "For Properties",
+    "restaurant": "For Restaurants",
+    "customers": "For Customers",
+    "shop": "Our Shop",
+    "aboutUs": "About Us",
+    "selectLanguage": "Select Language",
+    "contact": "Contact",
+    "signUpPickup": "Pickup/Delivery"
+  },
+  "services": {
+    "heading": "Our Services",
+    "intro": "Dash & Dry Laundry Services",
+    "diego": "ms robinson",
+    "properties": {
+      "title": "Property Managers",
+      "content": "Partner with us to expand your property services. Offer laundry services to tenants and earn extra income with commissions on every order."
+    },
+    "shopCustomers": {
+      "title": "Shop Customers",
+      "content": "We offer easy self-service laundry with washers, dryers, and a loyalty program. Enjoy hassle-free laundry with included detergent, softener, and disinfectant."
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "content": "We offer professional laundry services for restaurants, ensuring cleanliness and fast turnarounds for your busy establishment."
+    },
+    "pickupDelivery": {
+      "title": "Pickup & Delivery",
+      "content": "We pick up, wash, dry, and deliver your laundry. Fast turnaround and convenient scheduling for your busy life. COMING SOON!"
+    }
+  },
+  "homePage": {
+    "introBlock": {
+      "title": "We make laundry easy and quick for everyone",
+      "subtitle": "  Whether you're a customer looking for self-service options with great prices through our fidelity club, a property manager wanting to offer laundry services to your tenants, or a restaurant needing clean linens and napkins, we've got you covered. Enjoy reliable solutions that fit your needs, while we handle the hard work.",
+      "ctaButton": "Our Services"
+    },
+    "propertiesCTA": {
+      "heading": "Laundry Services for Property Managers",
+      "title": "Keep Your Properties Running Smooth with Dash & Dry",
+      "content": "Boost tenant happiness and make your job easier with our laundry services. We handle the dirty work, so you can focus on your business and even earn extra money along the way.",
+      "ctaButton": "Learn More"
+    },
+    "restaurantCTA": {
+      "heading": "Laundry Services for Restaurants",
+      "title": "Keep Your Linens Fresh with Dash & Dry",
+      "content1": "Let us deal with the dirty linens and napkins, so you can focus on your chefs and making delicious food.",
+      "content2": "We’ve got the laundry covered while you serve up the magic!",
+      "ctaButton": "Learn More"
+    },
+    "laundryCTA": {
+      "heading": "Pickup & Delivery Laundry Services",
+      "title": "Save Time with Dash & Dry's Pickup and Delivery Service",
+      "content": "Stop spending hours on laundry. Let us pick up, wash, and deliver your clothes while you focus on what really matters. It’s easy, convenient, and hassle-free.",
+      "ctaButton": "Sign Up (Coming Soon)"
+    },
+    "pricing": {
+      "heading": "Self-Service Laundry Prices",
+      "title": "Pricing that Fits Your Needs",
+      "content": "We offer competitive pricing on our self-service washers and dryers, with additional savings when using our Fidelity Card.",
+      "reviewsHeading": "Reviews from our Satisfied Customers",
+      "rating": "4.8/5",
+      "reviewsCount": "38 Reviews",
+      "googleLinkText": "See more reviews on Google",
+      "scrollMessage": "Scroll to view more",
+      "washer": "Washer",
+      "dryer": "Dryer",
+      "fidelityCardText": "Fidelity Card",
+      "cashCardText": "Cash/Bank Card",
+      "included": "Included",
+      "heatOptions": "Heat Options",
+      "feats": "Detergent, Fabric softener, ActiveOzone Mist Technology",
+      "dryerFeats": "High Heat, Medium Heat, No-Heat",
+      "descriptionSM": "Perfect for small loads",
+      "descriptionMD": "Ideal for medium loads",
+      "descriptionLG": "Perfect for large loads",
+      "descriptionDryer": "Fast drying for any load"
+    }
+  }
+}

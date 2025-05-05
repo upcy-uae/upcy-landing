@@ -1,0 +1,211 @@
+{
+  "footer": {
+    "heading": "Pren-te un descans de ser adult",
+    "subHeading": "ho té cobert"
+  },
+  "header": {
+    "home": "Inici",
+    "washingSolutions": "Solucions de Rentat",
+    "properties": "Per Propietats",
+    "restaurant": "Per Restaurants",
+    "customers": "Per a Clients",
+    "shop": "La Nostra Botiga",
+    "aboutUs": "Sobre Nosaltres",
+    "selectLanguage": "Seleccionar Idioma",
+    "contact": "Contacte",
+    "signUpPickup": "Recollida/Lliurament"
+  },
+  "homePage": {
+    "introBlock": {
+      "title": "Fem que rentar la roba sigui fàcil i ràpid per a tothom",
+      "subtitle": "Ja siguis un client que busca opcions d'autoservei amb grans preus a través del nostre club de fidelitat, un administrador de propietats que vol oferir serveis de bugaderia als seus llogaters, o un restaurant que necessita llençols i tovallons nets, t'ho posem fàcil. Gaudeix de solucions fiables que s'adapten a les teves necessitats mentre nosaltres ens ocupem de la feina dura.",
+      "ctaButton": "Els Nostres Serveis"
+    },
+    "propertiesCTA": {
+      "heading": "Serveis de bugaderia per a gestors de propietats",
+      "title": "Mantingues les teves propietats funcionant sense problemes amb Dash & Dry",
+      "content": "Augmenta la satisfacció dels inquilins i facilita la teva feina amb els nostres serveis de bugaderia. Ens encarreguem de la feina bruta, perquè puguis centrar-te en el teu negoci i fins i tot guanyar diners extres.",
+      "ctaButton": "Més informació"
+    },
+    "restaurantCTA": {
+      "heading": "Serveis de bugaderia per a restaurants",
+      "title": "Mantingues els teus llençols frescos amb Dash & Dry",
+      "content1": "Deixa'ns encarregar-nos dels llençols i tovallons bruts, perquè tu et puguis concentrar en els teus xefs i preparar plats deliciosos.",
+      "content2": "Nosaltres ens encarreguem de la bugaderia mentre tu serves la màgia!",
+      "ctaButton": "Més informació"
+    },
+    "laundryCTA": {
+      "heading": "Serveis de Bugaderia amb Recollida i Lliurament",
+      "title": "Estalvia Temps amb el Servei de Recollida i Lliurament amb Dash & Dry",
+      "content": "Deixa de passar hores rentant roba. Nosaltres la recollim, rentem i la tornem mentre et concentres en el que realment importa. És fàcil, convenient i sense complicacions.",
+      "ctaButton": "Apunta't (Properament)"
+    },
+    "pricing": {
+      "heading": "Preus de Bugaderia Autoservei",
+      "title": "Preus que s'Adapten a les teves Necessitats",
+      "content": "Oferim preus competitius a les nostres rentadores i assecadores d'autoservei, amb estalvis addicionals quan fas servir la nostra Targeta de Fidelitat.",
+      "reviewsHeading": "Ressenyes dels nostres Clients Satisfets",
+      "rating": "4.8/5",
+      "reviewsCount": "38 Ressenyes",
+      "googleLinkText": "Més ressenyes a Google",
+      "scrollMessage": "Desplaça't per veure més",
+      "washer": "Rentadora",
+      "dryer": "Assecadora",
+      "fidelityCardText": "Targeta de Fidelitat",
+      "cashCardText": "Efectiu/Tarjeta",
+      "included": "Inclòs",
+      "heatOptions": "Opcions de Calor",
+      "feats": "Detergent, Suavitzant de roba, Tecnologia ActiveOzone Mist",
+      "dryerFeats": "Calor Alt, Calor Mitjà, Sense Calor",
+      "descriptionSM": "Perfecte per a càrregues petites",
+      "descriptionMD": "Ideal per a càrregues mitjanes",
+      "descriptionLG": "Perfecte per a càrregues grans",
+      "descriptionDryer": "Assecat ràpid per a qualsevol càrrega"
+    }
+  },
+  "services": {
+    "heading": "Els nostres serveis",
+    "intro": "Serveis de Bugaderia Dash & Dry",
+    "diego": "ms robinson.",
+    "shopCustomers": {
+      "title": "Clients de la botiga",
+      "content": "Oferim bugaderia d'autoservei amb rentadores, assecadores i un programa de fidelització. Gaudeix d'una bugaderia fàcil amb detergent, suavitzant i desinfectant inclosos."
+    },
+    "properties": {
+      "title": "Gestors de Propietats",
+      "content": "Associa't amb nosaltres per ampliar els teus serveis immobiliaris. Ofereix serveis de bugaderia als llogaters i guanya ingressos addicionals amb comissions per cada comanda."
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "content": "Oferim serveis de bugaderia professional per a restaurants, garantint la neteja i un temps de resposta ràpid per al teu establiment."
+    },
+    "pickupDelivery": {
+      "title": "Recollida i Lliurament",
+      "content": "Recollim, rentem, assecem i lliurem la teva roba. Servei ràpid i còmode per a la teva vida ocupada. AVIAT!"
+    }
+  },
+  "IndexPage": {
+    "title": "next-intl example - Home Page - Catalan",
+    "description": "This is a basic example that demonstrates the usage of Catalan ",
+    "hero": {
+      "title": "Customize Your Laundry Experience",
+      "subtitle": "Your money, your time, your way !"
+    },
+    "attention": {
+      "textOne": "Let's face it, doing laundry sucks, and we get it",
+      "textTwo": "Our mission is to ease back that burden.",
+      "textThree": "It's simple, do more with your time, while saving you money!",
+      "textFour": "community-loving solution, ",
+      "textFive": "located in the heart of Barcelona, Spain.",
+      "cards": [
+        {
+          "title": "Save Some Cash",
+          "subtitle": "The average European households spends an average of €200 to €600 on laundry detergents annually. Factor in the electricity, water, and machine maintenance, and the costs add up.",
+          "content": "Let us take care of the laundry, so you can enjoy some extra money in your pocket.",
+          "cta": "Learn more"
+        },
+        {
+          "title": "It's your time",
+          "subtitle": "European families spend over 480 hours a year on laundry. Dash & Dry helps you reclaim that time. No more missing coffee dates, skipping workouts, or catching up with your friends over drinks",
+          "content": "Get your schedule back and do the things you love.",
+          "cta": "Learn more"
+        }
+      ]
+    },
+    "maps": {
+      "heading": "Our Location",
+      "directions": {
+        "street": "C/ del Consell de Cent, 122",
+        "city": "L'Eixample",
+        "state": "Barcelona",
+        "zipcode": "08015"
+      },
+      "textOne": "Address",
+      "cta": "Directions"
+    },
+    "about": {
+      "content": [
+        {
+          "title": "Our Location",
+          "content": [
+            "We're not just a spot to wash clothes; we're a part of the Barcelona community. By the people, for the people. We've teamed up with local businesses to make laundry more exciting.",
+            "While your clothes are spinning, explore the neighborhood, grab a free coffee from a nearby café, hit the gym, or enjoy sweet discounts at local restaurants"
+          ],
+          "cta": "Check us out on Google Maps",
+          "img": "location"
+        },
+        {
+          "title": "Built for Efficiency",
+          "content": [
+            "Our machines at Dash & Dry are built for efficiency. We have 5 high-capacity LG Titan Commercial Washers in 20kg, 15kg, and 3 - 12kg sizes, ensuring we can handle any load. Our 2 dryers, the LG Titan C Light Dryer Model, each with a 15kg capacity, are designed to dry large loads quickly without compromising quality.",
+            "This setup means you spend less time waiting for your laundry and more time on the things that matter. Whether it's a full week's worth of clothes or just a few items, our machines get the job done fast."
+          ],
+          "img": "location"
+        },
+        {
+          "title": "The Right Temperature for Every Type of Laundry",
+          "content": [
+            "At Dash & Dry, we offer versatile temperature options to suit all your laundry needs. Our washers let you choose from four temperature settings—Cold, 30c, 45c, and 60c—so you can wash delicate fabrics without worry or tackle heavily soiled clothes with confidence. When it's time to dry, our LG Titan C Light Dryers provide four temperature options: High, Medium, Low, and No Heat.",
+            "Whether you're drying thick towels or delicate garments, you can select the ideal temperature for each load. Our flexible temperature settings ensure your laundry gets the care it deserves."
+          ],
+          "img": "location"
+        },
+        {
+          "title": "Build Community Ties with Special Offers",
+          "content": [
+            "Now comes the fun part. While your laundry is being handled, check out our list of neighborhood partnerships. Dash & Dry has teamed up with local businesses to offer you exclusive discounts and perks. Whether it's a free coffee, discounted gym sessions, or special rates at local eateries, we've got something for everyone.",
+            "These partnerships aren't just about saving you money—they're about supporting our neighborhood's growth and connecting you with the local community. So go ahead, take advantage of these cool deals, and enjoy everything our vibrant area has to offer."
+          ],
+          "img": "location"
+        }
+      ]
+    },
+    "footer": {
+      "heading": "Take a Break from Adulting",
+      "subHeading": "has it covered",
+      "links": [
+        { "to": "/", "text": "Home" },
+        { "to": "/washing-solutions", "text": "Washing Solutions" },
+        { "to": "/our-location", "text": "Our Location" },
+        { "to": "/about-us", "text": "About Us" }
+      ]
+    }
+  },
+  "PathnamesPage": {
+    "title": "Pathnames",
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Error": {
+    "title": "Something went wr   ong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      }
+    }
+  }
+}

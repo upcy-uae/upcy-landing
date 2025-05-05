@@ -1,0 +1,206 @@
+{
+  "footer": {
+    "heading": "Tómate un descanso de ser adulto",
+    "subHeading": "lo tiene cubierto"
+  },
+  "header": {
+    "home": "Inicio",
+    "washingSolutions": "Soluciones de Lavado",
+    "properties": "Para Propiedades",
+    "restaurant": "Para Restaurantes",
+    "customers": "Para Clientes",
+    "shop": "Nuestra Tienda",
+    "aboutUs": "Sobre Nosotros",
+    "selectLanguage": "Seleccionar Idioma",
+    "contact": "Contacto",
+    "signUpPickup": "Recogida/Entrega"
+  },
+  "services": {
+    "heading": "Nuestros Servicios",
+    "intro": "Servicios de lavandería Dash & Dry",
+    "diego": "ms robinson.",
+    "shopCustomers": {
+      "title": "Clientes de la tienda",
+      "content": "Ofrecemos lavandería autoservicio con lavadoras, secadoras y un programa de fidelidad. Disfruta de una lavandería sin complicaciones con detergente, suavizante y desinfectante incluidos."
+    },
+    "properties": {
+      "title": "Administradores de Propiedades",
+      "content": "Asóciate con nosotros para ampliar tus servicios inmobiliarios. Ofrece servicios de lavandería a los inquilinos y gana ingresos extra con comisiones en cada pedido."
+    },
+    "restaurants": {
+      "title": "Restaurantes",
+      "content": "Ofrecemos servicios de lavandería profesional para restaurantes, asegurando limpieza y tiempos rápidos de entrega para tu establecimiento."
+    },
+    "pickupDelivery": {
+      "title": "Recogida y Entrega",
+      "content": "Recogemos, lavamos, secamos y entregamos tu ropa. Rápido y conveniente para tu vida ocupada. ¡PRÓXIMAMENTE!"
+    }
+  },
+  "homePage": {
+    "introBlock": {
+      "title": "Hacemos que lavar la ropa sea fácil y rápido para todos",
+      "subtitle": "Ya seas un cliente que busca opciones de autoservicio con excelentes precios a través de nuestro club de fidelidad, un administrador de propiedades que desea ofrecer servicios de lavandería a sus inquilinos, o un restaurante que necesita tener manteles y servilletas impecables, ¡te tenemos cubierto! Disfruta de soluciones confiables que se adaptan a tus necesidades mientras nosotros nos encargamos del trabajo pesado.",
+      "ctaButton": "Nuestros Servicios"
+    },
+    "propertiesCTA": {
+      "heading": "Servicios de lavandería para administradores de propiedades",
+      "title": "Mantén tus propiedades funcionando sin problemas con Dash & Dry",
+      "content": "Aumenta la satisfacción de los inquilinos y facilita tu trabajo con nuestros servicios de lavandería. Nos encargamos del trabajo sucio, para que puedas concentrarte en tu negocio y ganar dinero extra en el proceso.",
+      "ctaButton": "Más información"
+    },
+    "restaurantCTA": {
+      "heading": "Servicios de lavandería para restaurantes",
+      "title": "Mantén tus manteles frescos con Dash & Dry",
+      "content1": "Déjanos encargarnos de los manteles y servilletas sucias, para que puedas concentrarte en tus chefs y en preparar deliciosos platos.",
+      "content2": "Nosotros cubrimos la lavandería mientras tú sirves la magia.",
+      "ctaButton": "Más información"
+    },
+    "laundryCTA": {
+      "heading": "Servicios de Lavandería a Domicilio",
+      "title": "Ahorra Tiempo con el Servicio de Recogida y Entrega con Dash & Dry",
+      "content": "Deja de pasar horas lavando ropa. Nosotros la recogemos, lavamos y entregamos mientras te concentras en lo que realmente importa. Es fácil, conveniente y sin complicaciones.",
+      "ctaButton": "Regístrate (Próximamente)"
+    },
+    "pricing": {
+      "heading": "Precios de Lavandería Autoservicio",
+      "title": "Precios que se Ajustan a tus Necesidades",
+      "content": "Ofrecemos precios competitivos en nuestras lavadoras y secadoras autoservicio, con ahorros adicionales al usar nuestra Tarjeta de Fidelidad.",
+      "reviewsHeading": "Reseñas de nuestros Clientes Satisfechos",
+      "rating": "4.8/5",
+      "reviewsCount": "38 Reseñas",
+      "googleLinkText": "Ver más reseñas en Google",
+      "scrollMessage": "Desplázate para ver más",
+      "washer": "Lavadora",
+      "dryer": "Secadora",
+      "fidelityCardText": "Tarjeta de Fidelidad",
+      "cashCardText": "Efectivo/Tarjeta",
+      "included": "Incluido",
+      "heatOptions": "Opciones de Calor",
+      "feats": "Detergente, Suavizante de ropa, Tecnología ActiveOzone Mist",
+      "dryerFeats": "Calor Alto, Calor Medio, Sin Calor",
+      "descriptionSM": "Perfecto para cargas pequeñas",
+      "descriptionMD": "Ideal para cargas medianas",
+      "descriptionLG": "Perfecto para cargas grandes",
+      "descriptionDryer": "Secado rápido para cualquier carga"
+    }
+  },
+  "IndexPage": {
+    "title": "next-intl example - Home Page - Spaanish",
+    "description": "This is a basic example that demonstrates the usage of Spaanish ",
+    "hero": {
+      "title": "Personaliza tu experiencia de lavandería",
+      "subtitle": "¡Tu dinero, tu tiempo, ¡a tu manera!",
+      "logo": "logoDash"
+    },
+    "attention": {
+      "textOne": "Afrontémoslo, lavar la ropa es una lata, y lo entendemos",
+      "textTwo": "Nuestra misión es aliviar esa carga.",
+      "textThree": "Es simple, ¡haz más con tu tiempo, mientras te ahorramos dinero!",
+      "textFour": "solución amante de la comunidad",
+      "textFive": "ubicada en el corazón de Barcelona, España.",
+      "cards": {
+        "cardOne": {
+          "title": "Ahorra algo de dinero",
+          "subtitle": "Los hogares europeos promedio gastan entre €200 y €600 en detergentes para la ropa al año. Añade la electricidad, el agua y el mantenimiento de la máquina, y los costos se acumulan. Permítenos ocuparnos de la lavandería, para que puedas disfrutar de un dinero extra en tu bolsillo.",
+          "content": "Permítenos ocuparnos de la lavandería, para que puedas disfrutar de un dinero extra en tu bolsillo.",
+          "cta": "Aprende más"
+        },
+        "cardTwo": {
+          "title": "Es tu tiempo",
+          "subtitle": "Las familias europeas pasan más de 480 horas al año en la lavandería. Dash & Dry te ayuda a recuperar ese tiempo. No más citas perdidas para tomar café, saltarse entrenamientos o ponerse al día con amigos tomando algo. Recupera tu horario y haz las cosas que amas.",
+          "content": "Recupera tu horario y haz las cosas que amas.",
+          "cta": "Aprende más"
+        }
+      }
+    },
+    "maps": {
+      "heading": "¿Dónde puede encontrarnos?",
+      "textOne": "Dirección",
+      "cta": "Direcciones"
+    },
+    "about": {
+      "content": {
+        "one": {
+          "title": "Nuestra ubicación",
+          "content": {
+            "one": "No somos solo un lugar para lavar la ropa; somos parte de la comunidad de Barcelona. Por la gente, para la gente. Nos hemos asociado con negocios locales para hacer la lavandería más emocionante.",
+            "two": "Mientras tu ropa está girando, explora el vecindario, toma un café gratis en un café cercano, ve al gimnasio o disfruta de descuentos en restaurantes locales"
+          },
+          "cta": "Échale un vistazo en Google Maps",
+          "img": "location"
+        },
+        "two": {
+          "title": "Construido para la eficiencia",
+          "content": {
+            "one": "Nuestras máquinas en Dash & Dry están diseñadas para la eficiencia. Tenemos 5 lavadoras comerciales LG Titan de alta capacidad en tamaños de 20 kg, 15 kg y 3 - 12 kg, asegurando que podamos manejar cualquier carga. Nuestros 2 secadores, el modelo LG Titan C Light Dryer, cada uno con una capacidad de 15 kg, están diseñados para secar grandes cargas rápidamente sin comprometer la calidad.",
+            "two": "Esta configuración significa que pasas menos tiempo esperando tu lavandería y más tiempo en las cosas que importan. Ya sea una semana completa de ropa o solo algunas prendas, nuestras máquinas hacen el trabajo rápido."
+          },
+          "img": "location"
+        },
+        "three": {
+          "title": "La temperatura adecuada para cada tipo de lavado",
+          "content": {
+            "one": "En Dash & Dry, ofrecemos opciones de temperatura versátiles para satisfacer todas tus necesidades de lavandería. Nuestras lavadoras te permiten elegir entre cuatro ajustes de temperatura: Frío, 30c, 45c y 60c, para que puedas lavar telas delicadas sin preocupaciones o abordar ropa muy sucia con confianza. Cuando llega el momento de secar, nuestros secadores LG Titan C Light Dryers ofrecen cuatro opciones de temperatura: Alta, Media, Baja y Sin calor.",
+            "two": "Ya sea que estés secando toallas gruesas o prendas delicadas, puedes seleccionar la temperatura ideal para cada carga. Nuestras configuraciones de temperatura flexibles garantizan que tu ropa reciba el cuidado que se merece."
+          },
+          "img": "location"
+        },
+        "four": {
+          "title": "Crear lazos comunitarios con ofertas especiales",
+          "content": {
+            "one": "Ahora viene la parte divertida. Mientras tu lavandería está siendo manejada, echa un vistazo a nuestra lista de asociaciones vecinales. Dash & Dry se ha asociado con negocios locales para ofrecerte descuentos exclusivos y beneficios. Ya sea un café gratis, sesiones de gimnasio con descuento o tarifas especiales en restaurantes locales, tenemos algo para todos.",
+            "two": "Estas asociaciones no se tratan solo de ahorrarte dinero, se trata de apoyar el crecimiento de nuestro vecindario y conectarte con la comunidad local. Así que adelante, aprovecha estas ofertas geniales y disfruta de todo lo que nuestra vibrante área tiene para ofrecer."
+          },
+          "img": "location"
+        }
+      }
+    },
+    "footer": {
+      "heading": "Tómate un descanso del adulto",
+      "subHeading": "lo tiene cubierto",
+      "links": [
+        { "to": "/", "text": "Inicio" },
+        { "to": "/washing-solutions", "text": "Soluciones de lavado" },
+        { "to": "/our-location", "text": "Nuestra ubicación" },
+        { "to": "/about-us", "text": "Acerca de nosotros" }
+      ]
+    }
+  },
+  "PathnamesPage": {
+    "title": "Pathnames",
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      }
+    }
+  }
+}
