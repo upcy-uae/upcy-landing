@@ -5,6 +5,7 @@ import { HeroAnimated } from "@/src/components/HeroAnimated";
 import { AtentionBlock } from "@/src/components/AtentionBlock";
 import { Maps } from "@/src/components/home/Maps";
 import { UpcyHero } from "@/src/components/upcy-home/UpcyHero";
+import { AboutUpcy } from "@/src/components/upcy-home/AboutUpcy";
 import logoDash from "@/src/assets/images/logos/logo-white.svg";
 import location from "@/src/assets/images/about-section/location.jpeg";
 import machines from "@/src/assets/images/about-section/machines.jpg";
@@ -22,6 +23,7 @@ import { Pricing } from "@/src/components/home/Pricing";
 import { LaundryCTA } from "@/src/components/home/LaundryCta";
 import { PropertiesCTA } from "@/src/components/home/PropertiesCta";
 import { RestaurantCTA } from "@/src/components/home/RestaurantCta";
+import { AboutWasith } from "@/src/components/upcy-home/AboutWasith";
 
 export default function Home() {
   const t = useTranslations("homePage");
@@ -102,17 +104,11 @@ export default function Home() {
     descriptionDryer: tPricingBlock("descriptionDryer"),
   };
 
-  console.log(pricingContent);
-
   return (
     <>
       <UpcyHero />
-      <IntroBlock {...introBlock} />
-      <Services {...services} />
-      <PropertiesCTA {...propertiesCTAContent} />
-      <RestaurantCTA {...restaurantCTAContent} />
-      <LaundryCTA {...laundryCTAContent} />
-      <Pricing {...pricingContent} />
+      <AboutUpcy />
+      <AboutWasith />
     </>
   );
 }

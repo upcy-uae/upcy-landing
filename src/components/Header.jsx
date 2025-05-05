@@ -144,7 +144,7 @@ const Header = ({
       </section>
 
       {/* DESKTOP MENU */}
-      <div className="sticky top-0 z-50 bg-white lg:border-b border-dd-green-300">
+      <div className="sticky top-0 z-50 bg-white">
         <div className="flex items-center justify-between  px-4 lg:px-24 py-2">
           <div className="flex items-center gap-3">
             <Link href="/" className="inline-block">
@@ -170,7 +170,7 @@ const Header = ({
           </div>
 
           {/* Language Switcher for Desktop */}
-          <div className="relative hidden lg:block">
+          {/* <div className="relative hidden lg:block">
             <button
               className="flex items-center px-4 py-2 bg-white border border-gray-300 text-sm rounded-full hover:bg-dd-green-200 transition duration-200 hover:text-white"
               onClick={() => setIsOptionsExpanded(!isOptionsExpanded)}
@@ -231,7 +231,7 @@ const Header = ({
                 ))}
               </ul>
             )}
-          </div>
+          </div> */}
 
           <div className="lg:hidden">
             {isMenuOpen ? (
