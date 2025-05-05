@@ -48,7 +48,7 @@ export const AboutWasith = () => {
             <div className="flex flex-wrap ml-auto md:w-56 -m-2">
               <div className="w-full p-2">
                 <button
-                  className="py-4 px-6 w-full font-medium rounded-xl shadow-6xl focus:ring focus:ring-gray-300 bg-white hover:bg-gray-100 transition ease-in-out duration-200"
+                  className="py-4 px-6 w-full font-medium rounded-full shadow-6xl focus:ring focus:ring-gray-300 bg-white hover:bg-gray-100 transition ease-in-out duration-200"
                   type="button"
                   onClick={() => setShowModal(true)}
                 >
