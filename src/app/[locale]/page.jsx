@@ -4,6 +4,7 @@ import { MapThree } from "@/src/components/MapThree";
 import { HeroAnimated } from "@/src/components/HeroAnimated";
 import { AtentionBlock } from "@/src/components/AtentionBlock";
 import { Maps } from "@/src/components/home/Maps";
+import { UpcyHero } from "@/src/components/upcy-home/UpcyHero";
 import logoDash from "@/src/assets/images/logos/logo-white.svg";
 import location from "@/src/assets/images/about-section/location.jpeg";
 import machines from "@/src/assets/images/about-section/machines.jpg";
@@ -105,6 +106,7 @@ export default function Home() {
 
   return (
     <>
+      <UpcyHero />
       <IntroBlock {...introBlock} />
       <Services {...services} />
       <PropertiesCTA {...propertiesCTAContent} />

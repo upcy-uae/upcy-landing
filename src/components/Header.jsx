@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
-import logoDash from "@/src/assets/images/logos/logo-white.svg";
+import logoWasith from "@/src/assets/images/logos/wasith/logo-wasith-header.svg";
 import logoDashBlack from "@/src/assets/images/logos/logo-black.svg";
 import Image from "next/image";
 import { Link } from "../navigation";
@@ -25,8 +25,8 @@ const Header = ({
   const pathname = usePathname();
 
   const options = [
-    { country: "Catalan", code: "cat", flag: catFlag },
-    { country: "Spanish", code: "es", flag: esFlag },
+    // { country: "Catalan", code: "cat", flag: catFlag },
+    // { country: "Spanish", code: "es", flag: esFlag },
     { country: "English", code: "en", flag: gbFlag },
   ];
 
@@ -144,12 +144,12 @@ const Header = ({
       </section>
 
       {/* DESKTOP MENU */}
-      <div className="sticky top-0 z-50 bg-dd-green-200 lg:border-b border-dd-green-300">
+      <div className="sticky top-0 z-50 bg-white lg:border-b border-dd-green-300">
         <div className="flex items-center justify-between  px-4 lg:px-24 py-2">
           <div className="flex items-center gap-3">
             <Link href="/" className="inline-block">
               <Image
-                src={logoDash}
+                src={logoWasith}
                 width={140}
                 height={140}
                 alt="Dash & Dry Logo"
@@ -160,7 +160,7 @@ const Header = ({
                 <li key={link.to}>
                   <Link
                     href={link.to}
-                    className="inline-block py-2 px-3 hover:text-dd-green-300 transition duration-200 text-md font-bold text-white font-figtree"
+                    className="inline-block py-2 px-3 hover:text-underline transition duration-200 text-md font-bold text-black font-figtree"
                   >
                     {link.text}
                   </Link>
