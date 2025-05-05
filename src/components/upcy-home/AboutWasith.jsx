@@ -29,12 +29,19 @@ export const AboutWasith = () => {
         <div className="flex flex-wrap items-center -m-8">
           <div className="w-full md:w-1/2 p-8">
             <h2 className="mb-5 text-4xl md:text-6xl text-white font-bold tracking-px-n leading-tight">
-              Meet Wasith — the team powering UPCY.
+              Meet Wasith <br /> the team powering UPCY.
             </h2>
             <p className="text-white text-opacity-90 font-medium md:max-w-2xl">
-              We're Wasith — a product studio building next-gen commerce and
-              creator tools. UPCY is just one of the ways we're reshaping how
-              people sell, share, and connect through fashion.
+              We’re <span className="font-bold">Wasith</span> — a product studio
+              crafting next-generation tools for creators and digital
+              entrepreneurs. Our mission is to empower communities to build,
+              sell, and express themselves through technology. UPCY is one of
+              our flagship platforms — a social-selling fashion app that
+              redefines how people connect, trade, and inspire through style. By
+              blending commerce with creativity, we aim to make peer-to-peer
+              selling not just easier, but more personal, social, and
+              sustainable. <br /> At Wasith, we don’t just launch products; we
+              design ecosystems that bring people together.
             </p>
           </div>
           <div className="w-full md:w-1/2 p-8">

@@ -24,6 +24,9 @@ export const Footer = () => {
             Join the movement to buy, sell, and inspire with every spark.
             Sustainable, social, and style-forward.
           </p>
+          <p className="text-center text-xs text-gray-400 mt-4">
+            Powered by <span className="font-bold text-black">Wasith</span>
+          </p>
         </div>
       </footer>
       <div className="bg-gray-100 w-full text-center p-4">
