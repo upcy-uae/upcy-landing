@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import iphone from "@/src/assets/images/hero-upcy/iphone3.png";
+import iphone from "@/src/assets/images/hero-upcy/iphone4.png";
 import { WaitlistModal } from "@/src/components/upcy-home/WaitlistModal";
 // import gradient from "@/src/assets/images/hero-upcy/gradient.svg";
 
